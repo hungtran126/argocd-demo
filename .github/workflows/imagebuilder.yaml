@@ -56,4 +56,4 @@ jobs:
           cd ../..
           git add .
           git commit -am "Update image to ${{ github.sha }}"
-          git push https://x-access-token:${{ secrets.GH_ACTION_PAT }}@github.com/hungtran1266/argocd-demo.git
+          git push https://x-access-token:${{ secrets.GH_ACTION_PAT }}@github.com/hungtran126/argocd-demo.git
