@@ -33,5 +33,5 @@ spec:
               memory: "1024Mi"
               cpu: "512m"
           ports:
-            - containerPort: 8000
+            - containerPort: 80
               name: backend-api
