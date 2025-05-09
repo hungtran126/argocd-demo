@@ -1,6 +1,10 @@
 resources:
-  - deployment.yaml
+- deployment.yaml
 
-images: 
-  - name: backend-api
-    newTag: abcdeff # replace by github action
+images:
+- name: backend-api
+  newTag: abcdeff
+- name: hungtran1266/fast-api
+  newTag: 1fb711cc9705a420df895e9490d9b4f5508f3782
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
